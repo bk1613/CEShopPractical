@@ -40,6 +40,7 @@ public class ChessBoard {
 							posrr = r;
 						}
 					}
+					//check to see if position of rook and king is correct for castling
 					if(((0 < poslk-poslr && poslk-poslr < 2) || (0 < posrr-posrk && posrr-posrk < 2))) {
 						return true;
 					}
