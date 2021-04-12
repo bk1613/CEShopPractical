@@ -20,6 +20,7 @@ public class ChessBoard {
 					int posrr = 0;
 					int poslk = 0;
 					int posrk = 0;
+					//move the king to the left and find position of the king and rook
 					for(int r = j; r > -1; r--) {
 						if(ml == 2) {
 							poslk = r;
@@ -30,7 +31,7 @@ public class ChessBoard {
 						}
 						
 					}
-					
+					//move the king to the right and find position of the king and rook
 					for(int r = j; r < col; r++) {
 						if(mr == 2) {
 							posrk = r;
